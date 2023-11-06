@@ -1,0 +1,27 @@
+Sintaxis del lenguaje de programacion "Heral"
+
+Definir variables:
+	tipo_variable nombre_variable = valor ;
+
+Tipos de variables son: enteros, flotantes, dobles, cadenas, booleanos
+
+Operadores: +,-,*,/,=,==,!=, <=,<,>=,>, Y, O, diferente
+
+Estructuras de control:
+	condicionales, ciclos = Java en estructura
+
+
+Comentarios: //,/**/
+	
+Operacion matematica:
+	a + b * (4/3) Y a + b
+
+Funciones:	
+	tipo_metodo nombre_metodo() { }
+
+Gestion de errores:
+	intentar{} atrapar(){} finalmente{}
+
+Entrada y Salida:
+	entrada();
+	salida(texto de salida);
