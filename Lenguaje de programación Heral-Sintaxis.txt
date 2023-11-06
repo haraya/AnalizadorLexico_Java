@@ -25,3 +25,71 @@ Gestion de errores:
 Entrada y Salida:
 	entrada();
 	salida(texto de salida);
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
+   
+   /* 
+    //Metodo para analizar el codigo 
+    public static List<clsToken> analizar(String codigo)
+    {
+        //creamos una lista para almacenar los tokens
+        List<clsToken> tokens = new ArrayList<>();
+
+          //arreglo tipo string para guardar las palabras divididas
+        String [] codigoLineas = codigo.split("\\s+");
+        
+        //definir patrones para identificadores, numeros, strings, operadores, delimitadores
+        Pattern identPattern = Pattern.compile("[a-zA-Z][a-zA-Z0-9]*");
+        Pattern enterosPattern = Pattern.compile("\\d+");
+      // Pattern operadorPattern = Pattern.compile("[+\\-*/=]");*/
+        Pattern delimitadorPattern = Pattern.compile(";");*/
+        
+      
+     /*   
+        //Loop para iterar el arreglo string Codigolineas
+        for(String word : codigoLineas)
+        {
+            //Creo variables Match donde almacena cada valor del arreglo
+            Matcher identMatcher = identPattern.matcher(word);
+            Matcher operadorMatcher = operadorPattern.matcher(word);
+            Matcher delimitadorMatcher = delimitadorPattern.matcher(word);
+            Matcher enteroMatcher = enterosPattern.matcher(word);
+                    
+            //condicion para verificar el match
+            if (identMatcher.matches()) 
+            {
+                //si es verdadero, se agrega a la lista tokens
+                tokens.add(new clsToken (Token_type.IDENTIFIER,word));
+            }else if (operadorMatcher.matches()) 
+            {
+                tokens.add(new clsToken (Token_type.OPERATOR,word));
+            }else if (enteroMatcher.matches()) 
+            {
+                tokens.add(new clsToken (Token_type.INTEGER,word));
+            }else if (delimitadorMatcher.matches()) 
+            {
+                tokens.add(new clsToken (Token_type.DELIMITER,word));
+            }
+            */
+            /*
+        }//cierre del for
+
+        
+        //retornamos la lista de los tokens
+        return tokens;
+    }
+    */
+    
+    
+    
+    
+    
+ /*   
+}
+*/

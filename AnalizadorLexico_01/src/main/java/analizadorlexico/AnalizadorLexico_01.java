@@ -15,7 +15,7 @@ public class AnalizadorLexico_01 {
 
     public static void main(String[] args) {
         // estructura de codigo
-        String sourceCode = "x = 10 + y * 5 ;";
+        String sourceCode = "x = 10 + y * 5;";
         
         //lista de tokens 
         List<Token> tokens = analyze(sourceCode);
